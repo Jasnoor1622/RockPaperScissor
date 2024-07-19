@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Intro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(98, 69, 133);
+    width: 100%;
+}
+.Title{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    height: 5rem;
+    line-height: 5rem;
+    padding-bottom: 10px;
+}
+.Images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    object-fit: cover;
+}
+.Rock:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Paper:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Sci:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Score{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.Score1{
+    font-family: cursive;
+    font-size: 20px;
+}
+.Score2{
+    font-family: cursive;
+    font-size: 20px;
+}
+.Message{
+    margin-top: 10px;
+    text-align: center;
+}
+.Start{
+    display: inline;
+    background-color: rgb(98, 69, 133);
+    color: white;
+    padding: 20px;
+    height: 5rem;
+    line-height: 5rem;
+    font-family: cursive;
+    border-radius: 50px;
+}
+.Start:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+@media (max-width: 667px) and (min-width: 375px){
+    .Intro{
+        display: block;
+    }
+    .Images{
+        display: block;
+    }
+    .Message{
+        display: block;
+    }
+    .Score{
+        display: block;
+    }
+}
+@media (max-width: 896px) and (min-width: 414px){
+    .Intro{
+        display: block;
+    }
+    .Images{
+        display: block;
+    }
+    .Message{
+        display: block;
+    }
+    .Score{
+        display: block;
+    }
+}
+@media (max-width: 932px) and (min-width: 430px){
+    .Intro{
+        display: block;
+    }
+    .Images{
+        display: block;
+    }
+    .Message{
+        display: block;
+    }
+    .Score{
+        display: block;
+    }
+}
